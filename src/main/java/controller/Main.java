@@ -11,8 +11,8 @@ import java.sql.Connection;
 public class Main {
     public static void main(String[] args) {
         String dbUrl = "jdbc:postgresql://localhost:5432/practise";
-        String dbUser = "sambhav";
-        String dbPassword = "";
+        String dbUser = "postgres"; //use your db username
+        String dbPassword = "password"; //use your db password
         final String apiUrl = "https://api.openweathermap.org/data/2.5/weather";
         final String apiKey = ""; //leaving apiKey emoty. Use your own apiKey by registering at https://api.openweathermap.org
         String city = "Milpitas";
