@@ -2,6 +2,9 @@ package model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/*
+@author Sambhav D Sethia
+ */
 public class Coord {
     @JsonProperty("lon")
     private double lon;

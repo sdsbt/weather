@@ -2,6 +2,9 @@ package model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/*
+@author Sambhav D Sethia
+ */
 public class Clouds {
     @JsonProperty("all")
     private int cloudCover;

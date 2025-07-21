@@ -6,6 +6,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+/*
+@author Sambhav D Sethia
+ */
 public class WeatherRecordDao {
     private final Connection connection;
 

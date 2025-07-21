@@ -3,6 +3,9 @@ package model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
+/*
+@author Sambhav D Sethia
+ */
 public class WeatherRecord {
 
     @JsonProperty("coord")
